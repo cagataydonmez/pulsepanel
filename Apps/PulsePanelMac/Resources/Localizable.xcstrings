@@ -1,0 +1,46 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Commands stay on your local network." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komutlar yerel aginizda kalir."
+          }
+        }
+      }
+    },
+    "Enter this code on your iPhone." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu kodu iPhone'unuzda girin."
+          }
+        }
+      }
+    },
+    "No paired iPhones yet." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henuz eslenmis iPhone yok."
+          }
+        }
+      }
+    },
+    "Show Pairing Code" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esleme Kodunu Goster"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

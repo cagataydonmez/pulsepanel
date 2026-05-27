@@ -1,0 +1,9 @@
+.DS_Store
+.codex/
+.vscode/
+.build/
+DerivedData/
+*.xcuserdata/
+*.xcuserstate
+Package.resolved
+build/

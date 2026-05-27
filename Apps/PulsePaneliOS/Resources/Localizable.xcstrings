@@ -1,0 +1,56 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add Tile" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutucuk Ekle"
+          }
+        }
+      }
+    },
+    "Choose a Mac" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir Mac Sec"
+          }
+        }
+      }
+    },
+    "Commands stay on your local network." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Komutlar yerel aginizda kalir."
+          }
+        }
+      }
+    },
+    "Enter the 6-digit code shown on your Mac." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mac'inizde gorunen 6 haneli kodu girin."
+          }
+        }
+      }
+    },
+    "No Macs found on this network." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu agda Mac bulunamadi."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
