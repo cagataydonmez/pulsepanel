@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		000E8E970E923FFB17B4D1B2 = { isa = PBXBuildFile; productRef = 14BD2AD46ADA9B2A2F97C469; };
+		00C45FD35CB0F9C5F764F070 = { isa = PBXGroup;
+			children = (
+				57157261AC48F9302A3B476E,
+				3B0BB3AAC6141AA5CDB947A5,
+			);
+			name = Products;
+			sourceTree = "<group>"; };
+		017572C78ECE754C6A1AA1C1 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Services/BoardStore.swift; sourceTree = "<group>"; };
+		0294B479CA9DD006A12C689C = { isa = PBXBuildFile; fileRef = D6F3C6023027FFF90633537F; };
+		06CCFCCB0AFCF9CF627DF4EA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Models/PulsePanelAppState.swift; sourceTree = "<group>"; };
+		0B6C2843F7AFB3AC148BE443 = { isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD7D7E7DB86E8054DEA89BE,
+5EDA011E69F4538A3763AC64,
+BD3B89D83D10ADC609525B55,
+A25C95141D0D5C169613A77A,
+B6A6FAFF8F7D04DC6566C8A1,
+CB67DB1EB5258437D9C73415,
+8FC5B4EB9E8FA8E8BFF7E132,
+A463965B7B34B1810A6ADDF7,
+1628029DDB69173C25805430,
+85171442500D898985E1BA73,
+71A7962BC5F2359155D698DB,
+0294B479CA9DD006A12C689C,
+1B22B40660E2BFCB6E7C8991,
+635D1897CD5B2EDF23B4588B,
+DC509085142B0D204D3614F8,
+73961B6758D18A2F7800021C,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		0CD9FDDD998511BF475AA976 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/Dashboard/DashboardView.swift; sourceTree = "<group>"; };
+		12D04D787E90C9B967248BFD = { isa = XCConfigurationList;
+			buildConfigurations = (
+				73BFC4993D558C2844970A56,
+				3C5BC6FE1E438E679FB7F74F,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release; };
+		13ECE097D88ED83A0B24BEA8 = { isa = PBXBuildFile; fileRef = 82C055BF0E0160E536C16989; };
+		14BD2AD46ADA9B2A2F97C469 = { isa = XCSwiftPackageProductDependency; package = C06FB0FDB675E591C328BA13; productName = PulsePanelProtocol; };
+		15AE266749487DB95F0F3658 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/AppCatalogProvider.swift; sourceTree = "<group>"; };
+		1628029DDB69173C25805430 = { isa = PBXBuildFile; fileRef = 8BC608C37F442A1AB96ED5A3; };
+		1B22B40660E2BFCB6E7C8991 = { isa = PBXBuildFile; fileRef = 65D92F0C0C1A08710955CB46; };
+		1D4C93C314CDD4FB08F42D29 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/PulsePanelMacApp.swift; sourceTree = "<group>"; };
+		1DBA0F101ADC1E2394759235 = { isa = PBXBuildFile; fileRef = 3A278F1AB099917994F92D4A; };
+		1F43D678F14EC216CD475F4A = { isa = PBXBuildFile; fileRef = 44F8EE82463F045CDD5173F9; };
+		1FE81BE25D15D316ABFF6328 = { isa = PBXBuildFile; fileRef = F06A1DD3019AFD3F8E6A4A53; };
+		2252F65F4BCB067A0DD5E360 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/MenuBar/MacSettingsView.swift; sourceTree = "<group>"; };
+		27545A0DE529B28C917144E5 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		2F4DC056D1454C6905B3407F = { isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Apps/PulsePaneliOS/Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+		32C1347189D165176B633A0D = { isa = PBXBuildFile; fileRef = E9BCB5E209358667AD267434; };
+		3A278F1AB099917994F92D4A = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/Pairing/PairingView.swift; sourceTree = "<group>"; };
+		3B0BB3AAC6141AA5CDB947A5 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsePanelMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5BC6FE1E438E679FB7F74F = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release; };
+		405BB9FBF8CF11550ED62A10 = { isa = PBXBuildFile; fileRef = 06CCFCCB0AFCF9CF627DF4EA; };
+		442719FA706A41A8B8100E85 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/Accessibility/WindowControlExecutor.swift; sourceTree = "<group>"; };
+		44F8EE82463F045CDD5173F9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/TileEditor/TileEditorView.swift; sourceTree = "<group>"; };
+		471234F68AFEF15654920B06 = { isa = PBXBuildFile; fileRef = 61CC92838D86837F2D72593E; };
+		494D50E6503C52D70E40BD08 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/Dashboard/TileButton.swift; sourceTree = "<group>"; };
+		4AAD2A9CCEC81BF31FD76D7F = { isa = PBXBuildFile; fileRef = B97803D068A754617E0ACC52; };
+		4B1BCA0E129F14F7B7F43B2F = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4P293R4B47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/PulsePanelMac-Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagataydonmez.pulsepanel.mac;
+				PRODUCT_NAME = PulsePanelMac;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release; };
+		4BD7D7E7DB86E8054DEA89BE = { isa = PBXBuildFile; fileRef = 8838A92E6CA693AB67181485; };
+		57157261AC48F9302A3B476E = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulsePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C032B39DF1A4E3A644633F = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4P293R4B47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/PulsePaneliOS-Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagataydonmez.pulsepanel;
+				PRODUCT_NAME = PulsePanel;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug; };
+		57F448246761B5711BB35681 = { isa = XCConfigurationList;
+			buildConfigurations = (
+				57C032B39DF1A4E3A644633F,
+				A943C89183417984FF587C80,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release; };
+		57F805ADDAC2AAECF5B0B9B3 = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4P293R4B47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/PulsePanelMac-Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 0.1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagataydonmez.pulsepanel.mac;
+				PRODUCT_NAME = PulsePanelMac;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug; };
+		5EDA011E69F4538A3763AC64 = { isa = PBXBuildFile; fileRef = 442719FA706A41A8B8100E85; };
+		61CC92838D86837F2D72593E = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Apps/PulsePanelMac/Assets.xcassets; sourceTree = "<group>"; };
+		635D1897CD5B2EDF23B4588B = { isa = PBXBuildFile; fileRef = 1D4C93C314CDD4FB08F42D29; };
+		642B29E5884C6A145A2B61BE = { isa = PBXNativeTarget;
+			buildConfigurationList = D68855D041180578F5D57BFC;
+			buildPhases = (
+				0B6C2843F7AFB3AC148BE443,
+				E9BAC7883EBD67B4D7BB04FF,
+				718C1F61082559908D6C325A,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulsePanelMac;
+			packageProductDependencies = (
+				14BD2AD46ADA9B2A2F97C469,
+			);
+			productName = PulsePanelMac;
+			productReference = 3B0BB3AAC6141AA5CDB947A5;
+			productType = "com.apple.product-type.application"; };
+		65D92F0C0C1A08710955CB46 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Pairing/TrustedDeviceStore.swift; sourceTree = "<group>"; };
+		663B4101554CBEB7FEC46FD9 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/MenuBar/MenuBarRootView.swift; sourceTree = "<group>"; };
+		6D693E0FFF8AA9931D983AE7 = { isa = PBXFileReference; lastKnownFileType = text; path = DESIGN.md; sourceTree = "<group>"; };
+		718C1F61082559908D6C325A = { isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9954DF05B6C268D821892C8,
+471234F68AFEF15654920B06,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		71A7962BC5F2359155D698DB = { isa = PBXBuildFile; fileRef = 7BBF320BE8E37026AD66661E; };
+		73961B6758D18A2F7800021C = { isa = PBXBuildFile; fileRef = C90337DEDBC9EAC7D14E8DEA; };
+		73BFC4993D558C2844970A56 = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_LANGUAGE = en;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug; };
+		786E81C8D1B0D359E1357D0E = { isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000E8E970E923FFB17B4D1B2,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		7BBF320BE8E37026AD66661E = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/MenuBar/PairingCodeView.swift; sourceTree = "<group>"; };
+		7E1F7496230D17DEA501F7C2 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/PulsePaneliOSApp.swift; sourceTree = "<group>"; };
+		82C055BF0E0160E536C16989 = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Apps/PulsePaneliOS/Assets.xcassets; sourceTree = "<group>"; };
+		85171442500D898985E1BA73 = { isa = PBXBuildFile; fileRef = 663B4101554CBEB7FEC46FD9; };
+		877F13621333D579379F33E3 = { isa = PBXFileReference; lastKnownFileType = text; path = PRODUCT.md; sourceTree = "<group>"; };
+		8838A92E6CA693AB67181485 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/Accessibility/AccessibilityPermissionGate.swift; sourceTree = "<group>"; };
+		8BC608C37F442A1AB96ED5A3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/MenuBar/MenuBarModel.swift; sourceTree = "<group>"; };
+		8FC5B4EB9E8FA8E8BFF7E132 = { isa = PBXBuildFile; fileRef = DBD5372C1CA213943568BC4C; };
+		8FFC875E12F1CD237B499E53 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Features/Discovery/DiscoveryView.swift; sourceTree = "<group>"; };
+		91651A58CDFAF0B84DF5C142 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		98F54143AB4E86B28C3AFEE0 = { isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					CFBE9EBF1D994085158311DB = { CreatedOnToolsVersion = 26.4.1; };
+					642B29E5884C6A145A2B61BE = { CreatedOnToolsVersion = 26.4.1; };
+				};
+			};
+			buildConfigurationList = 12D04D787E90C9B967248BFD;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				tr,
+				Base,
+			);
+			mainGroup = ADCF10F76EBF2A74473E9DC4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C06FB0FDB675E591C328BA13,
+			);
+			productRefGroup = 00C45FD35CB0F9C5F764F070;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBE9EBF1D994085158311DB,
+				642B29E5884C6A145A2B61BE,
+			); };
+		9CBC3B7E57A48920B9E7C95B = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Services/KeychainStore.swift; sourceTree = "<group>"; };
+		A25C95141D0D5C169613A77A = { isa = PBXBuildFile; fileRef = CAB538CA6BAC6EBEF615C8F0; };
+		A3759AC36EED56E21EF750FD = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Services/BonjourBrowser.swift; sourceTree = "<group>"; };
+		A463965B7B34B1810A6ADDF7 = { isa = PBXBuildFile; fileRef = 2252F65F4BCB067A0DD5E360; };
+		A5546505C8E0604442BF488F = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/PulsePanelMac-Info.plist; sourceTree = "<group>"; };
+		A709F79C3932AF0D03148CEA = { isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F291D5B6C7ECC51ABF2F915E,
+C3EFE44C81C1FA0403979EBE,
+E23C3C35C252BC17D3233458,
+1DBA0F101ADC1E2394759235,
+CC796B01E3C51EADFB693AB4,
+1F43D678F14EC216CD475F4A,
+32C1347189D165176B633A0D,
+405BB9FBF8CF11550ED62A10,
+E3AFEDB574E3181F70497533,
+4AAD2A9CCEC81BF31FD76D7F,
+B6BDC91BF9F6E0FF02CD5B85,
+C141F97D1EDC5A43D12DA920,
+1FE81BE25D15D316ABFF6328,
+B5F4D93ACBEA0ECBFF76D81E,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		A943C89183417984FF587C80 = { isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4P293R4B47;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/PulsePaneliOS-Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cagataydonmez.pulsepanel;
+				PRODUCT_NAME = PulsePanel;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release; };
+		ACFCF16DF92198225B05F67F = { isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6462BAFEA071F29418635F3,
+13ECE097D88ED83A0B24BEA8,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		ADCF10F76EBF2A74473E9DC4 = { isa = PBXGroup;
+			children = (
+				00C45FD35CB0F9C5F764F070,
+				0CD9FDDD998511BF475AA976,
+494D50E6503C52D70E40BD08,
+8FFC875E12F1CD237B499E53,
+3A278F1AB099917994F92D4A,
+27545A0DE529B28C917144E5,
+44F8EE82463F045CDD5173F9,
+E9BCB5E209358667AD267434,
+06CCFCCB0AFCF9CF627DF4EA,
+7E1F7496230D17DEA501F7C2,
+B97803D068A754617E0ACC52,
+017572C78ECE754C6A1AA1C1,
+A3759AC36EED56E21EF750FD,
+F06A1DD3019AFD3F8E6A4A53,
+9CBC3B7E57A48920B9E7C95B,
+8838A92E6CA693AB67181485,
+442719FA706A41A8B8100E85,
+15AE266749487DB95F0F3658,
+CAB538CA6BAC6EBEF615C8F0,
+C784B5BEA45F17B703019452,
+B9B7E3C9F70C748EF3AED4E3,
+DBD5372C1CA213943568BC4C,
+2252F65F4BCB067A0DD5E360,
+8BC608C37F442A1AB96ED5A3,
+663B4101554CBEB7FEC46FD9,
+7BBF320BE8E37026AD66661E,
+D6F3C6023027FFF90633537F,
+65D92F0C0C1A08710955CB46,
+1D4C93C314CDD4FB08F42D29,
+D36A033E42EB752B70EF0776,
+C90337DEDBC9EAC7D14E8DEA,
+2F4DC056D1454C6905B3407F,
+82C055BF0E0160E536C16989,
+F8E9F6A619D33CF2920FB16C,
+61CC92838D86837F2D72593E,
+B8A0A1171692A5DAB6D11F7C,
+A5546505C8E0604442BF488F,
+91651A58CDFAF0B84DF5C142,
+B66BCDC810D3FCEA23D284EF,
+877F13621333D579379F33E3,
+6D693E0FFF8AA9931D983AE7,
+			);
+			sourceTree = "<group>"; };
+		B5F4D93ACBEA0ECBFF76D81E = { isa = PBXBuildFile; fileRef = 9CBC3B7E57A48920B9E7C95B; };
+		B6462BAFEA071F29418635F3 = { isa = PBXBuildFile; fileRef = 2F4DC056D1454C6905B3407F; };
+		B66BCDC810D3FCEA23D284EF = { isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B6A6FAFF8F7D04DC6566C8A1 = { isa = PBXBuildFile; fileRef = C784B5BEA45F17B703019452; };
+		B6BDC91BF9F6E0FF02CD5B85 = { isa = PBXBuildFile; fileRef = 017572C78ECE754C6A1AA1C1; };
+		B8A0A1171692A5DAB6D11F7C = { isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config/PulsePaneliOS-Info.plist; sourceTree = "<group>"; };
+		B97803D068A754617E0ACC52 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/RootView.swift; sourceTree = "<group>"; };
+		B9954DF05B6C268D821892C8 = { isa = PBXBuildFile; fileRef = F8E9F6A619D33CF2920FB16C; };
+		B9B7E3C9F70C748EF3AED4E3 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/ShortcutRunner.swift; sourceTree = "<group>"; };
+		BD3B89D83D10ADC609525B55 = { isa = PBXBuildFile; fileRef = 15AE266749487DB95F0F3658; };
+		C06FB0FDB675E591C328BA13 = { isa = XCLocalSwiftPackageReference; relativePath = Packages/PulsePanelProtocol; };
+		C141F97D1EDC5A43D12DA920 = { isa = PBXBuildFile; fileRef = A3759AC36EED56E21EF750FD; };
+		C3EFE44C81C1FA0403979EBE = { isa = PBXBuildFile; fileRef = 494D50E6503C52D70E40BD08; };
+		C784B5BEA45F17B703019452 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/MacCommandExecutor.swift; sourceTree = "<group>"; };
+		C90337DEDBC9EAC7D14E8DEA = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Transport/CommandRouter.swift; sourceTree = "<group>"; };
+		CAB538CA6BAC6EBEF615C8F0 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/HotkeySender.swift; sourceTree = "<group>"; };
+		CB67DB1EB5258437D9C73415 = { isa = PBXBuildFile; fileRef = B9B7E3C9F70C748EF3AED4E3; };
+		CC796B01E3C51EADFB693AB4 = { isa = PBXBuildFile; fileRef = 27545A0DE529B28C917144E5; };
+		CFBE9EBF1D994085158311DB = { isa = PBXNativeTarget;
+			buildConfigurationList = 57F448246761B5711BB35681;
+			buildPhases = (
+				A709F79C3932AF0D03148CEA,
+				786E81C8D1B0D359E1357D0E,
+				ACFCF16DF92198225B05F67F,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulsePaneliOS;
+			packageProductDependencies = (
+				14BD2AD46ADA9B2A2F97C469,
+			);
+			productName = PulsePaneliOS;
+			productReference = 57157261AC48F9302A3B476E;
+			productType = "com.apple.product-type.application"; };
+		D36A033E42EB752B70EF0776 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Transport/BonjourServer.swift; sourceTree = "<group>"; };
+		D68855D041180578F5D57BFC = { isa = XCConfigurationList;
+			buildConfigurations = (
+				57F805ADDAC2AAECF5B0B9B3,
+				4B1BCA0E129F14F7B7F43B2F,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release; };
+		D6F3C6023027FFF90633537F = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Pairing/PairingCodePresenter.swift; sourceTree = "<group>"; };
+		DBD5372C1CA213943568BC4C = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePanelMac/Executor/URLLauncher.swift; sourceTree = "<group>"; };
+		DC509085142B0D204D3614F8 = { isa = PBXBuildFile; fileRef = D36A033E42EB752B70EF0776; };
+		E23C3C35C252BC17D3233458 = { isa = PBXBuildFile; fileRef = 8FFC875E12F1CD237B499E53; };
+		E3AFEDB574E3181F70497533 = { isa = PBXBuildFile; fileRef = 7E1F7496230D17DEA501F7C2; };
+		E9BAC7883EBD67B4D7BB04FF = { isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000E8E970E923FFB17B4D1B2,
+			);
+			runOnlyForDeploymentPostprocessing = 0; };
+		E9BCB5E209358667AD267434 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Models/AppTile.swift; sourceTree = "<group>"; };
+		F06A1DD3019AFD3F8E6A4A53 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps/PulsePaneliOS/Services/CommandClient.swift; sourceTree = "<group>"; };
+		F291D5B6C7ECC51ABF2F915E = { isa = PBXBuildFile; fileRef = 0CD9FDDD998511BF475AA976; };
+		F8E9F6A619D33CF2920FB16C = { isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Apps/PulsePanelMac/Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0;
+}

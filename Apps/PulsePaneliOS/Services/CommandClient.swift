@@ -2,7 +2,7 @@ import Foundation
 import Network
 import PulsePanelProtocol
 
-public struct CommandClient {
+public struct CommandClient: Sendable {
     public init() {}
 
     public func send(_ envelope: CommandEnvelope, to mac: MacIdentity) async throws -> CommandResponse {

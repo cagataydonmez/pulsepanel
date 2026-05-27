@@ -32,7 +32,7 @@ let package = Package(
             name: "PulsePaneliOSApp",
             dependencies: ["PulsePanelProtocol"],
             path: "Apps/PulsePaneliOS",
-            exclude: ["Resources"],
+            exclude: ["Assets.xcassets"],
             resources: [
                 .process("Resources")
             ]
@@ -41,7 +41,7 @@ let package = Package(
             name: "PulsePanelMac",
             dependencies: ["PulsePanelProtocol"],
             path: "Apps/PulsePanelMac",
-            exclude: ["Resources"],
+            exclude: ["Assets.xcassets"],
             resources: [
                 .process("Resources")
             ]
